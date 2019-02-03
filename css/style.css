@@ -57,6 +57,7 @@
 }
 .l-heading{
   font-size:40px;
+  line-height:1.2;
 }
 /* padding */
 .py-1{padding:10px 0; }
@@ -95,7 +96,7 @@ p{
   color: #fff;
 }
 
-#navbar h1{
+#navbar .logo{
   float: left;
   padding-top: 20px;
 
@@ -159,6 +160,7 @@ p{
 /* home info */
  #home-info{
   display:flex;
+/*   height:450px; */
 }
  #home-info .info-img{
   /* float: left;
@@ -218,7 +220,7 @@ p{
 /* testimonials*/
 
 #testimonials{
-   height: 600px;
+   height: 100%;
    background:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0,0,0.5)), url('../img/pexels-photo-573552.jpeg') no-repeat
    center center/cover;
    padding-top:40px;
